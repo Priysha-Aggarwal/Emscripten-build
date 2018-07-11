@@ -17,8 +17,11 @@ Preallocating 1 workers for a pthread spawn pool.
 with a constant "running" sign for too long.
 
 While running node program.js gives me :
+
 /Users/priysha/emsdk/emscripten/incoming/mutex.js:106
+
   throw ex;
+
   ^
 
   TypeError: [object Uint32Array] is not an integer shared typed array.
