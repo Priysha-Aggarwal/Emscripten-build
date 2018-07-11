@@ -1731,7 +1731,7 @@ function _emscripten_asm_const_i(code) {
 
 STATIC_BASE = GLOBAL_BASE;
 
-STATICTOP = STATIC_BASE + 8080;
+STATICTOP = STATIC_BASE + 8032;
 /* global initializers */ if (!ENVIRONMENT_IS_PTHREAD) __ATINIT__.push({ func: function() { ___emscripten_pthread_data_constructor() } });
 
 
@@ -1742,7 +1742,7 @@ memoryInitializer = "thread.html.mem";
 
 
 
-var STATIC_BUMP = 8080;
+var STATIC_BUMP = 8032;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 
