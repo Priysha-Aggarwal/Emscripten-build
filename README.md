@@ -25,14 +25,23 @@ While running node program.js gives me :
   ^
 
   TypeError: [object Uint32Array] is not an integer shared typed array.
+  
   at Atomics.store ()
+  
   at Object.initMainThreadBlock (/Users/priysha/emsdk/emscripten/incoming/mutex.js:1821:17)
+  
   at Object. (/Users/priysha/emsdk/emscripten/incoming/mutex.js:5651:38)
+  
   at Module._compile (internal/modules/cjs/loader.js:689:30)
+  
   at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+  
   at Module.load (internal/modules/cjs/loader.js:599:32)
+  
   at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+   
   at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+  
   at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+  
   at startup (internal/bootstrap/node.js:236:19)
-
